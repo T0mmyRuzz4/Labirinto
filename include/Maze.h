@@ -12,11 +12,11 @@ class Maze {
 	// coordinate uscita
 	int Xexit;
 	int Yexit;
-	void set_start();
-	void set_exit();
 	public:
 		Maze();
-		Maze(const std::vector<std::vector<char>> labr);
+		Maze(const std::vector<std::vector<char>> f);
+		int get_start_X();
+		int get_start_Y();
 		int get_exit_X();
 		int get_exit_Y();
 		

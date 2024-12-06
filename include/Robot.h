@@ -1,17 +1,16 @@
 #ifndef ROBOT_H
 #define ROBOT_H
 #include <iostream>
+#include "Maze.h"
 
 class Robot {
 	// coordinate di posizione
-	int X;
-	int Y;
+	int x;
+	int y;
+	bool finish;
 	public:
 		Robot();
-		virtual void move(Maze& labr);
-		int get_pos_X();
-		int get_pos_Y();
-
+		void move(Maze& labr);
 };
 
 #endif
