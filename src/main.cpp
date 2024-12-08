@@ -1,8 +1,13 @@
+#include <fstream>
 #include <iostream>
 #include <vector>
 
 #include "../include/Maze.h"
 #include "../include/Robot.h"
+#include "../include/RandomRobot.h"
+#include "../include/RightHandRuleRobot.h"
+// dopo aver fatto il CMake:
+// main.cpp fuori da src e togliere ../ dagli includes
 
 int main(int argc, char *argv[]) {
 	if(argc != 2) {

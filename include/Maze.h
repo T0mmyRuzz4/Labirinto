@@ -1,7 +1,5 @@
 #ifndef MAZE_H
 #define MAZE_H
-#include <fstream>
-// #include <iostream>
 #include <vector>
 
 class Maze {
@@ -15,10 +13,10 @@ class Maze {
 	public:
 		Maze();
 		Maze(const std::vector<std::vector<char>> f);
-		int get_start_X();
-		int get_start_Y();
-		int get_exit_X();
-		int get_exit_Y();
+		int get_start_X() const;
+		int get_start_Y() const;
+		int get_exit_X() const;
+		int get_exit_Y() const;
 		
 };
 

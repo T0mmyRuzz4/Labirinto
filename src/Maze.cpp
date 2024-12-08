@@ -19,7 +19,7 @@ Maze::Maze(const std::vector<std::vector<char>> f) {
     }
 }
 
-int Maze::get_start_X()   { return Xstart; }
-int Maze::get_start_Y()   { return Ystart; }
-int Maze::get_exit_X()    { return Xexit; }
-int Maze::get_exit_Y()    { return Yexit; }
+int Maze::get_start_X() const   { return Xstart; }
+int Maze::get_start_Y() const   { return Ystart; }
+int Maze::get_exit_X() const    { return Xexit; }
+int Maze::get_exit_Y() const    { return Yexit; }
