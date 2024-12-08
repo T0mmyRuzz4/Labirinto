@@ -23,7 +23,7 @@ add_library(RightHandRuleRobot
 )
 
 add_executable(main
-    main.cpp
+    src/main.cpp
 )
 
 target_link_libraries(main
