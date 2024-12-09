@@ -7,7 +7,7 @@ class Robot {
 		// coordinate di posizione
 		int x;
 		int y;
-		bool finish;
+		bool started;	// il robot è stato inserito in un labirinto
 	public:
 		Robot();
 		virtual void move(Maze& labr) = 0;

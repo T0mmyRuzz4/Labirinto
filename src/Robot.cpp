@@ -1,7 +1,7 @@
 #include "../include/Robot.h"
 
 Robot::Robot() {
-    finish = false;
+    started = false;
 }
 
 void Robot::move(Maze& labr) {}

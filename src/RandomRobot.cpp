@@ -1,12 +1,22 @@
 #include "../include/RandomRobot.h"
+#include <cstdlib>
 
 RandomRobot::RandomRobot() {
-    finish = false;
+    started = false;
 }
 
 void RandomRobot::move(Maze& labr) {
-    // se devi chiamare 1 sola volta inserisci bool per verificare
-    // se la funzione è stata chiamata per la prima volta
-    x = labr.get_start_X();
-    y = labr.get_start_Y();
+    if(!started) {
+        x = labr.get_start_X();
+        y = labr.get_start_Y();
+        started = true;
+    }
+
+    int i = rand() % 2 - 1;
+    int j = rand() % 2 - 1;
+    
+    if(labr.direction_free(x + i, y + j)) {
+        x = x + i;
+        y = y + j;
+    }
 }

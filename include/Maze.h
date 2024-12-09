@@ -10,6 +10,9 @@ class Maze {
 	// coordinate uscita
 	int Xexit;
 	int Yexit;
+	// coordinate robot
+	int Xrobot;
+	int Yrobot;
 	public:
 		Maze();
 		Maze(const std::vector<std::vector<char>> f);
@@ -17,7 +20,9 @@ class Maze {
 		int get_start_Y() const;
 		int get_exit_X() const;
 		int get_exit_Y() const;
-		
+		bool free_right(int x);
+		bool direction_free(int x, int y);
+
 };
 
 #endif
