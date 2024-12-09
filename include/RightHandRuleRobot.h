@@ -7,6 +7,7 @@ class RightHandRuleRobot : Robot {
 	public:
 		RightHandRuleRobot();
 		void move(Maze& labr) override;
+		bool finish(Maze& labr) const;
 };
 
 #endif
