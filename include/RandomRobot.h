@@ -7,7 +7,6 @@ class RandomRobot : Robot {
 	public:
 		RandomRobot();
 		void move(Maze& labr) override;
-		bool finish(Maze& labr) const;
 };
 
 #endif

@@ -52,10 +52,10 @@ RM = C:\cmake-3.31.2-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto"
+CMAKE_SOURCE_DIR = C:\Users\tomma\Documents\GitHub\Labirinto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build"
+CMAKE_BINARY_DIR = C:\Users\tomma\Documents\GitHub\Labirinto\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Maze.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/Maze.dir/codegen:
 
 CMakeFiles/Maze.dir/src/Maze.cpp.obj: CMakeFiles/Maze.dir/flags.make
 CMakeFiles/Maze.dir/src/Maze.cpp.obj: CMakeFiles/Maze.dir/includes_CXX.rsp
-CMakeFiles/Maze.dir/src/Maze.cpp.obj: C:/Users/tomma/OneDrive\ -\ Università\ degli\ Studi\ di\ Padova/Documenti/GitHub/Labirinto/src/Maze.cpp
+CMakeFiles/Maze.dir/src/Maze.cpp.obj: C:/Users/tomma/Documents/GitHub/Labirinto/src/Maze.cpp
 CMakeFiles/Maze.dir/src/Maze.cpp.obj: CMakeFiles/Maze.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Maze.dir/src/Maze.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Maze.dir/src/Maze.cpp.obj -MF CMakeFiles\Maze.dir\src\Maze.cpp.obj.d -o CMakeFiles\Maze.dir\src\Maze.cpp.obj -c "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\src\Maze.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tomma\Documents\GitHub\Labirinto\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Maze.dir/src/Maze.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Maze.dir/src/Maze.cpp.obj -MF CMakeFiles\Maze.dir\src\Maze.cpp.obj.d -o CMakeFiles\Maze.dir\src\Maze.cpp.obj -c C:\Users\tomma\Documents\GitHub\Labirinto\src\Maze.cpp
 
 CMakeFiles/Maze.dir/src/Maze.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Maze.dir/src/Maze.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\src\Maze.cpp" > CMakeFiles\Maze.dir\src\Maze.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tomma\Documents\GitHub\Labirinto\src\Maze.cpp > CMakeFiles\Maze.dir\src\Maze.cpp.i
 
 CMakeFiles/Maze.dir/src/Maze.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Maze.dir/src/Maze.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\src\Maze.cpp" -o CMakeFiles\Maze.dir\src\Maze.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tomma\Documents\GitHub\Labirinto\src\Maze.cpp -o CMakeFiles\Maze.dir\src\Maze.cpp.s
 
 # Object files for target Maze
 Maze_OBJECTS = \
@@ -96,7 +96,7 @@ Maze_EXTERNAL_OBJECTS =
 libMaze.a: CMakeFiles/Maze.dir/src/Maze.cpp.obj
 libMaze.a: CMakeFiles/Maze.dir/build.make
 libMaze.a: CMakeFiles/Maze.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMaze.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\tomma\Documents\GitHub\Labirinto\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMaze.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\Maze.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Maze.dir\link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/Maze.dir/clean:
 .PHONY : CMakeFiles/Maze.dir/clean
 
 CMakeFiles/Maze.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build\CMakeFiles\Maze.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\tomma\Documents\GitHub\Labirinto C:\Users\tomma\Documents\GitHub\Labirinto C:\Users\tomma\Documents\GitHub\Labirinto\build C:\Users\tomma\Documents\GitHub\Labirinto\build C:\Users\tomma\Documents\GitHub\Labirinto\build\CMakeFiles\Maze.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Maze.dir/depend
 

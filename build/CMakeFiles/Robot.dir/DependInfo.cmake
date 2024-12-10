@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/tomma/OneDrive - Università degli Studi di Padova/Documenti/GitHub/Labirinto/src/Robot.cpp" "CMakeFiles/Robot.dir/src/Robot.cpp.obj" "gcc" "CMakeFiles/Robot.dir/src/Robot.cpp.obj.d"
+  "C:/Users/tomma/Documents/GitHub/Labirinto/src/Robot.cpp" "CMakeFiles/Robot.dir/src/Robot.cpp.obj" "gcc" "CMakeFiles/Robot.dir/src/Robot.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

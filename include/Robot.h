@@ -11,7 +11,7 @@ class Robot {
 	public:
 		Robot();
 		virtual void move(Maze& labr) = 0;
-		virtual bool finish(Maze& labr) const;
+		bool finish(Maze& labr) const;
 };
 
 #endif

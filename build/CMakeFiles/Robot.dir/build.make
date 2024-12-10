@@ -52,10 +52,10 @@ RM = C:\cmake-3.31.2-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto"
+CMAKE_SOURCE_DIR = C:\Users\tomma\Documents\GitHub\Labirinto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build"
+CMAKE_BINARY_DIR = C:\Users\tomma\Documents\GitHub\Labirinto\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Robot.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/Robot.dir/codegen:
 
 CMakeFiles/Robot.dir/src/Robot.cpp.obj: CMakeFiles/Robot.dir/flags.make
 CMakeFiles/Robot.dir/src/Robot.cpp.obj: CMakeFiles/Robot.dir/includes_CXX.rsp
-CMakeFiles/Robot.dir/src/Robot.cpp.obj: C:/Users/tomma/OneDrive\ -\ Università\ degli\ Studi\ di\ Padova/Documenti/GitHub/Labirinto/src/Robot.cpp
+CMakeFiles/Robot.dir/src/Robot.cpp.obj: C:/Users/tomma/Documents/GitHub/Labirinto/src/Robot.cpp
 CMakeFiles/Robot.dir/src/Robot.cpp.obj: CMakeFiles/Robot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Robot.dir/src/Robot.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Robot.dir/src/Robot.cpp.obj -MF CMakeFiles\Robot.dir\src\Robot.cpp.obj.d -o CMakeFiles\Robot.dir\src\Robot.cpp.obj -c "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\src\Robot.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tomma\Documents\GitHub\Labirinto\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Robot.dir/src/Robot.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Robot.dir/src/Robot.cpp.obj -MF CMakeFiles\Robot.dir\src\Robot.cpp.obj.d -o CMakeFiles\Robot.dir\src\Robot.cpp.obj -c C:\Users\tomma\Documents\GitHub\Labirinto\src\Robot.cpp
 
 CMakeFiles/Robot.dir/src/Robot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Robot.dir/src/Robot.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\src\Robot.cpp" > CMakeFiles\Robot.dir\src\Robot.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tomma\Documents\GitHub\Labirinto\src\Robot.cpp > CMakeFiles\Robot.dir\src\Robot.cpp.i
 
 CMakeFiles/Robot.dir/src/Robot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Robot.dir/src/Robot.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\src\Robot.cpp" -o CMakeFiles\Robot.dir\src\Robot.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tomma\Documents\GitHub\Labirinto\src\Robot.cpp -o CMakeFiles\Robot.dir\src\Robot.cpp.s
 
 # Object files for target Robot
 Robot_OBJECTS = \
@@ -96,7 +96,7 @@ Robot_EXTERNAL_OBJECTS =
 libRobot.a: CMakeFiles/Robot.dir/src/Robot.cpp.obj
 libRobot.a: CMakeFiles/Robot.dir/build.make
 libRobot.a: CMakeFiles/Robot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libRobot.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\tomma\Documents\GitHub\Labirinto\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libRobot.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\Robot.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Robot.dir\link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/Robot.dir/clean:
 .PHONY : CMakeFiles/Robot.dir/clean
 
 CMakeFiles/Robot.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build\CMakeFiles\Robot.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\tomma\Documents\GitHub\Labirinto C:\Users\tomma\Documents\GitHub\Labirinto C:\Users\tomma\Documents\GitHub\Labirinto\build C:\Users\tomma\Documents\GitHub\Labirinto\build C:\Users\tomma\Documents\GitHub\Labirinto\build\CMakeFiles\Robot.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Robot.dir/depend
 

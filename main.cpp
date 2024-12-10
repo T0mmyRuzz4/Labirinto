@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
 
 	Maze m = Maze(labr);	// creazione labirinto
 	// if che suddivide il programma in base al robot scelto
-	if(n == 1) {
+	/*if(n == 1) {
 		RandomRobot r;
 		do {
 			r.move(m);
@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
 		do {
 			r.move(m);
 		} while(!(r.finish(m)));
-	}
+	}*/
 
 	std::cout << "EVVIVA!\n" << name << " ha trovato l'uscita.\n";
 

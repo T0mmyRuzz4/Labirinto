@@ -52,10 +52,10 @@ RM = C:\cmake-3.31.2-windows-x86_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto"
+CMAKE_SOURCE_DIR = C:\Users\tomma\Documents\GitHub\Labirinto
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build"
+CMAKE_BINARY_DIR = C:\Users\tomma\Documents\GitHub\Labirinto\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RightHandRuleRobot.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/RightHandRuleRobot.dir/codegen:
 
 CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj: CMakeFiles/RightHandRuleRobot.dir/flags.make
 CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj: CMakeFiles/RightHandRuleRobot.dir/includes_CXX.rsp
-CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj: C:/Users/tomma/OneDrive\ -\ Università\ degli\ Studi\ di\ Padova/Documenti/GitHub/Labirinto/src/RightHandRuleRobot.cpp
+CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj: C:/Users/tomma/Documents/GitHub/Labirinto/src/RightHandRuleRobot.cpp
 CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj: CMakeFiles/RightHandRuleRobot.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj -MF CMakeFiles\RightHandRuleRobot.dir\src\RightHandRuleRobot.cpp.obj.d -o CMakeFiles\RightHandRuleRobot.dir\src\RightHandRuleRobot.cpp.obj -c "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\src\RightHandRuleRobot.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\tomma\Documents\GitHub\Labirinto\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj -MF CMakeFiles\RightHandRuleRobot.dir\src\RightHandRuleRobot.cpp.obj.d -o CMakeFiles\RightHandRuleRobot.dir\src\RightHandRuleRobot.cpp.obj -c C:\Users\tomma\Documents\GitHub\Labirinto\src\RightHandRuleRobot.cpp
 
 CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\src\RightHandRuleRobot.cpp" > CMakeFiles\RightHandRuleRobot.dir\src\RightHandRuleRobot.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\tomma\Documents\GitHub\Labirinto\src\RightHandRuleRobot.cpp > CMakeFiles\RightHandRuleRobot.dir\src\RightHandRuleRobot.cpp.i
 
 CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\src\RightHandRuleRobot.cpp" -o CMakeFiles\RightHandRuleRobot.dir\src\RightHandRuleRobot.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\tomma\Documents\GitHub\Labirinto\src\RightHandRuleRobot.cpp -o CMakeFiles\RightHandRuleRobot.dir\src\RightHandRuleRobot.cpp.s
 
 # Object files for target RightHandRuleRobot
 RightHandRuleRobot_OBJECTS = \
@@ -96,7 +96,7 @@ RightHandRuleRobot_EXTERNAL_OBJECTS =
 libRightHandRuleRobot.a: CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj
 libRightHandRuleRobot.a: CMakeFiles/RightHandRuleRobot.dir/build.make
 libRightHandRuleRobot.a: CMakeFiles/RightHandRuleRobot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libRightHandRuleRobot.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\tomma\Documents\GitHub\Labirinto\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libRightHandRuleRobot.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\RightHandRuleRobot.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\RightHandRuleRobot.dir\link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/RightHandRuleRobot.dir/clean:
 .PHONY : CMakeFiles/RightHandRuleRobot.dir/clean
 
 CMakeFiles/RightHandRuleRobot.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build" "C:\Users\tomma\OneDrive - Università degli Studi di Padova\Documenti\GitHub\Labirinto\build\CMakeFiles\RightHandRuleRobot.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\tomma\Documents\GitHub\Labirinto C:\Users\tomma\Documents\GitHub\Labirinto C:\Users\tomma\Documents\GitHub\Labirinto\build C:\Users\tomma\Documents\GitHub\Labirinto\build C:\Users\tomma\Documents\GitHub\Labirinto\build\CMakeFiles\RightHandRuleRobot.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/RightHandRuleRobot.dir/depend
 
