@@ -1,0 +1,32 @@
+[
+{
+  "directory": "C:/Users/tomma/OneDrive - Università degli Studi di Padova/Documenti/GitHub/Labirinto/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Maze.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\Maze.dir\\src\\Maze.cpp.obj -c \"C:\\Users\\tomma\\OneDrive - Università degli Studi di Padova\\Documenti\\GitHub\\Labirinto\\src\\Maze.cpp\"",
+  "file": "C:/Users/tomma/OneDrive - Università degli Studi di Padova/Documenti/GitHub/Labirinto/src/Maze.cpp",
+  "output": "CMakeFiles/Maze.dir/src/Maze.cpp.obj"
+},
+{
+  "directory": "C:/Users/tomma/OneDrive - Università degli Studi di Padova/Documenti/GitHub/Labirinto/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Robot.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\Robot.dir\\src\\Robot.cpp.obj -c \"C:\\Users\\tomma\\OneDrive - Università degli Studi di Padova\\Documenti\\GitHub\\Labirinto\\src\\Robot.cpp\"",
+  "file": "C:/Users/tomma/OneDrive - Università degli Studi di Padova/Documenti/GitHub/Labirinto/src/Robot.cpp",
+  "output": "CMakeFiles/Robot.dir/src/Robot.cpp.obj"
+},
+{
+  "directory": "C:/Users/tomma/OneDrive - Università degli Studi di Padova/Documenti/GitHub/Labirinto/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/RandomRobot.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\RandomRobot.dir\\src\\RandomRobot.cpp.obj -c \"C:\\Users\\tomma\\OneDrive - Università degli Studi di Padova\\Documenti\\GitHub\\Labirinto\\src\\RandomRobot.cpp\"",
+  "file": "C:/Users/tomma/OneDrive - Università degli Studi di Padova/Documenti/GitHub/Labirinto/src/RandomRobot.cpp",
+  "output": "CMakeFiles/RandomRobot.dir/src/RandomRobot.cpp.obj"
+},
+{
+  "directory": "C:/Users/tomma/OneDrive - Università degli Studi di Padova/Documenti/GitHub/Labirinto/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/RightHandRuleRobot.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\RightHandRuleRobot.dir\\src\\RightHandRuleRobot.cpp.obj -c \"C:\\Users\\tomma\\OneDrive - Università degli Studi di Padova\\Documenti\\GitHub\\Labirinto\\src\\RightHandRuleRobot.cpp\"",
+  "file": "C:/Users/tomma/OneDrive - Università degli Studi di Padova/Documenti/GitHub/Labirinto/src/RightHandRuleRobot.cpp",
+  "output": "CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj"
+},
+{
+  "directory": "C:/Users/tomma/OneDrive - Università degli Studi di Padova/Documenti/GitHub/Labirinto/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\main.dir\\main.cpp.obj -c \"C:\\Users\\tomma\\OneDrive - Università degli Studi di Padova\\Documenti\\GitHub\\Labirinto\\main.cpp\"",
+  "file": "C:/Users/tomma/OneDrive - Università degli Studi di Padova/Documenti/GitHub/Labirinto/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
+}
+]

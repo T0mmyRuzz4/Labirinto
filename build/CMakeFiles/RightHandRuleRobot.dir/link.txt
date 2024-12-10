@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libRightHandRuleRobot.a CMakeFiles/RightHandRuleRobot.dir/src/RightHandRuleRobot.cpp.obj
+C:\msys64\ucrt64\bin\ranlib.exe libRightHandRuleRobot.a
