@@ -1,12 +1,8 @@
-cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
 
 project(Labirinto)
 
 include_directories(include, src)
-
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_CXX_STANDARD_REQUIRED 20)
-set(CMAKE_CXX_EXTENSIONS false)
 
 add_library(Maze
     include/Maze.h
