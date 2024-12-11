@@ -26,34 +26,45 @@ int main(int argc, char *argv[]) {
 
 	std::vector<char> list;
 	std::vector<std::vector<char>> labr;	// matrice
-	std::fstream fs("maze.txt");
-	char c;
-	while(fs.get(c)) {
-		if(c == '\n') {
-			labr.push_back(list);
-			list.clear();
+	std::fstream fs("maze.txt", std::fstream::in);
+	if(fs.is_open()) {
+		char c;
+		while(fs.get(c)) {
+			if(c == '\n') {
+				labr.push_back(list);
+				list.clear();
+			}
+			else
+				list.push_back(c);
 		}
-		else
-			list.push_back(c);
+	}
+	else {
+		std::cout << "Errore in apertura del file";
+		return -1;
 	}
 	fs.close();
 
 	Maze m = Maze(labr);	// creazione labirinto
+	int count;	// contatore di mosse per uscire
 	// if che suddivide il programma in base al robot scelto
-	/*if(n == 1) {
-		RandomRobot r;
+	if(n == 1) {
+		RandomRobot r = RandomRobot();
 		do {
 			r.move(m);
+			count++;
 		} while(!(r.finish(m)));
 	}
 	else if(n == 2) {
-		RightHandRuleRobot r;
+		RightHandRuleRobot r = RightHandRuleRobot();
 		do {
 			r.move(m);
+			count++;
 		} while(!(r.finish(m)));
-	}*/
+	}
 
 	std::cout << "EVVIVA!\n" << name << " ha trovato l'uscita.\n";
 
 	return 0;
 }
+
+// cmake .. -G "MinGW Makefiles" -DCMAKE_CXX_COMPILER=g++

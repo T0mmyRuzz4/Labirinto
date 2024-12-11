@@ -9,9 +9,8 @@ class Robot {
 		int y;
 		bool started;	// il robot è stato inserito in un labirinto
 	public:
-		Robot();
+		Robot() {}
 		virtual void move(Maze& labr) = 0;
-		bool finish(Maze& labr) const;
 };
 
 #endif

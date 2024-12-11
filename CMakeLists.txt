@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
 project (Labirinto LANGUAGES CXX)
 
 # Opzioni generali
-set(CMAKE_CXX_STANDARD 17) # Assicurati di specificare il livello di standard richiesto
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
