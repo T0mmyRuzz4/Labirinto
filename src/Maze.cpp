@@ -1,7 +1,5 @@
 #include "../include/Maze.h"
 
-Maze::Maze() {}
-
 Maze::Maze(const std::vector<std::vector<char>> f) {
     field = f;
     int lato = f[0].size();
@@ -17,22 +15,12 @@ Maze::Maze(const std::vector<std::vector<char>> f) {
             }
         }
     }
-
-    Xrobot = Xstart;
-    Yrobot = Ystart;
 }
 
 int Maze::get_start_X() const   { return Xstart; }
 int Maze::get_start_Y() const   { return Ystart; }
 int Maze::get_exit_X() const    { return Xexit; }
 int Maze::get_exit_Y() const    { return Yexit; }
-
-bool Maze::free_right(int x) {
-    if(field[Xrobot + 1][Yrobot] != '*')
-        return true;
-    else
-        return false;
-}
 
 bool Maze::direction_free(int x, int y) {
     if(field[x][y] == '*')

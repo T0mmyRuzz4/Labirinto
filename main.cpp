@@ -13,7 +13,6 @@ int main(int argc, char *argv[]) {
 		std::cout << "Scrivere \"./main maze.txt\"\n";
 		return -1;
 	}
-
 	std::string name;	// nome robot
 	int n;	// variabile per indicare il tipo di robot
 	std::cout << "Come vuoi chiamare il tuo robot?\n";
@@ -26,7 +25,7 @@ int main(int argc, char *argv[]) {
 
 	std::vector<char> list;
 	std::vector<std::vector<char>> labr;	// matrice
-	std::fstream fs("maze.txt", std::fstream::in);
+	std::fstream fs(argv[1], std::fstream::in);
 	if(fs.is_open()) {
 		char c;
 		while(fs.get(c)) {

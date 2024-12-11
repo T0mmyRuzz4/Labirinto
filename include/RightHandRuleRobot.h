@@ -4,6 +4,7 @@
 #include "Robot.h"
 
 class RightHandRuleRobot : Robot {
+	int direction;	// 1 est, 2 nord, 3 ovest, 4 sud
 	public:
 		RightHandRuleRobot();
 		void move(Maze& labr) override;
