@@ -40,7 +40,7 @@ int main(int argc, char *argv[]) {
 		}
 	}
 	else {
-		std::cout << "Errore in apertura del file";
+		std::cout << "Errore in apertura del file\n";
 		return -1;
 	}
 	fs.close();
@@ -63,7 +63,7 @@ int main(int argc, char *argv[]) {
 		} while(!(r.finish(m)));
 	}
 
-	std::cout << "EVVIVA!\n" << name << " ha trovato l'uscita in " << count << " passi!";
+	std::cout << "EVVIVA! " << name << " ha trovato l'uscita in " << count << " passi!";
 
 	return 0;
 }

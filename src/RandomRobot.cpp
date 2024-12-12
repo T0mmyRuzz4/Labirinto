@@ -1,5 +1,4 @@
 #include "../include/RandomRobot.h"
-#include <iostream>
 #include <random>
 
 RandomRobot::RandomRobot() {
