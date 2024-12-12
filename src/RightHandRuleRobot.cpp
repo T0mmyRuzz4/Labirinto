@@ -22,3 +22,12 @@ void RightHandRuleRobot::move(Maze& labr) {
     verso il basso fino a che non trova un ostacolo o finchè non ha la sinistra libera */
 
 }
+
+bool RightHandRuleRobot::finish(const Maze& labr) {
+    if(x == labr.get_exit_X() && y == labr.get_exit_Y()) {
+        started = false;
+        return true;
+    }
+    else
+        return false;
+}

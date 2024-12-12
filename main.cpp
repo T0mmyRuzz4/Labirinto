@@ -14,18 +14,20 @@ int main(int argc, char *argv[]) {
 		return -1;
 	}
 	std::string name;	// nome robot
-	int n;	// variabile per indicare il tipo di robot
+	int n {0};	// variabile per indicare il tipo di robot
 	std::cout << "Come vuoi chiamare il tuo robot?\n";
-	std::cin >> name;
+	std::getline (std::cin, name);
 	do {
 		std::cout << "Che tipo di robot vuoi che sia " << name << "?\n";
 		std::cout << "1) RandomRobot\n2) RightHandRuleRobot\nInserire il numero corrispondente: ";
 		std::cin >> n;
 	} while(n != 1 && n != 2);
 
+	std::string path = argv[1];
+	path = "../" + path;
 	std::vector<char> list;
 	std::vector<std::vector<char>> labr;	// matrice
-	std::fstream fs(argv[1], std::fstream::in);
+	std::fstream fs(path, std::fstream::in);
 	if(fs.is_open()) {
 		char c;
 		while(fs.get(c)) {
@@ -61,7 +63,7 @@ int main(int argc, char *argv[]) {
 		} while(!(r.finish(m)));
 	}
 
-	std::cout << "EVVIVA!\n" << name << " ha trovato l'uscita.\n";
+	std::cout << "EVVIVA!\n" << name << " ha trovato l'uscita in " << count << " passi!";
 
 	return 0;
 }
